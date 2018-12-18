@@ -1,0 +1,240 @@
+li {
+    list-style-type: none;
+}
+
+body{
+    margin:0;
+}
+footer{
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: small;
+    margin:0 auto;
+    width:40%;
+}
+.global{
+    /*margin:0 auto;*/
+    /*width:60.5%;*/
+}
+#contener{
+    justify-content: center;
+    /*padding-left: 150px;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*width:80%;*/
+    /*max-width:1000px;*/
+    background: url("../image/coverciel.jpg");
+    background-size: 100% auto;
+}
+
+.nomAge {
+    /*background:dodgerblue;*/
+    /*display: inline-flex;*/
+    /*margin:0 auto;*/
+    width: 605px;
+    height: 150px;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+
+}
+.titre{
+    /*background: dodgerblue;*/
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+    text-shadow: 1px 1px 1px grey;
+    letter-spacing: 8px;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    font-size: x-large;
+
+}
+
+.nom{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    background: silver;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    margin: 0 0 0 10px;
+    text-align: center;
+}
+.age{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    background: silver;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    margin: 0 0 0 10px;
+    text-align: center;
+}
+
+.tete{
+    display:inline;
+    float: right;
+    margin:-80px 0 0 0;
+    width:200px;
+}
+.tete ul{
+    display: block;
+}
+.nouvellePartie{
+    width:40px;
+}
+
+.reprendrePartie{
+    width: 40px;
+}
+
+.ecranJauge{
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    display: inline-flex;
+    background-color: rgba(0,0,0,.3);
+}
+
+.ecran{
+    /*background: limegreen;*/
+    width: 400px;
+    height: 350px;
+}
+
+.personnage{
+    background-image: url('../image/house.gif');
+    border: 1px solid green;
+    border-radius: 10px;
+    height:300px;
+    margin: 22px 10px 0 10px;
+}
+
+.textJauge{
+    display: inline-block;
+    color: whitesmoke;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    margin: 15px 0 -10px 0;
+    /*border: 2px solid black;*/
+
+}
+.myProgress {
+    /*border: 2px solid black;*/
+    border-radius: 8px;
+    height: 15px;
+    width: 200px;
+    background-color: silver;
+    margin-right: 5px;
+
+}
+
+#myBarSante {
+    width: 5%;
+    height: 15px;
+    border-radius: 8px;
+}
+
+#myBarHumeur {
+    width: 1%;
+    height: 15px;
+    border-radius: 8px;
+}
+
+#myBarFaim {
+    width: 1%;
+    height: 15px;
+    border-radius: 8px;
+}
+
+#myBarFatigue {
+    width: 1%;
+    height: 15px;
+    border-radius: 8px;
+}
+
+#myBarPoids {
+    width: 1%;
+    height: 15px;
+    border-radius: 8px;
+}
+
+.boutton{
+    /*background: coral;*/
+    border: 1px solid coral;
+    border-radius: 10px;
+    width:605px;
+    height: 80px;
+    margin: -2.5px 20px 0 0 ;
+}
+
+
+.choix{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: -40px;
+
+}
+ul.choix{
+    width: 100%;
+}
+
+input{
+    background: silver;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+    background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+    background-color:#7892c2;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:12px;
+    padding:2px 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    margin: 5px;
+}
+
+.textAge {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.textPseudo {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
